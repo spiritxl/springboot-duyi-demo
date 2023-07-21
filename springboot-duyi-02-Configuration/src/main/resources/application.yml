@@ -1,0 +1,24 @@
+food:
+  meet: 烤肉
+  rice: 拌饭
+
+spring:
+  profiles:
+    active: dev
+
+
+
+---
+spring:
+  profiles: dev
+
+server:
+  port: 8090
+
+---
+spring:
+  profiles:
+    prod
+
+server:
+  port: 8010

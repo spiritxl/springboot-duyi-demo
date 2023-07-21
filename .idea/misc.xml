@@ -4,6 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/springboot-duyi-01-HelloWorld/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-duyi-02-Configuration/pom.xml" />
       </list>
     </option>
   </component>
