@@ -51,7 +51,7 @@ public class SensitivitySerializer extends JsonSerializer<String> implements Con
 
   @Override
   public void serialize(String s, com.fasterxml.jackson.core.JsonGenerator jsonGenerator, SerializerProvider serializerProvider) throws IOException {
-//判断是否为空脱敏类型
+    //判断是否为空脱敏类型
     if (StringUtils.isNotBlank(s) && null != sensitivityTypeEnum) {
       //判断脱敏类型，进入对应类型的数据处理
       switch (sensitivityTypeEnum) {
