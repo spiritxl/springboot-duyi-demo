@@ -1,6 +1,7 @@
 package com.test.controller;
 
 
+import com.test.post.People;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -17,5 +18,11 @@ public class HelloController {
     @ResponseBody
     public String hello(){
         return "Hello DuYi";
+    }
+
+    @RequestMapping("/aaa")
+    @ResponseBody
+    public String word(String json){
+        return json;
     }
 }
